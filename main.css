@@ -499,6 +499,9 @@
         background-color: #111;
         color: wheat;
     }
+    #signUp{
+        width: 100%;
+    }
 
 
     @media screen and (max-width: 550px) {
