@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css">
+    <style>
+     
+       
+        
+    </style>
+    <title>Employee Report</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+            <li><a class="active" href="#"><span class="style3val"> 3VAL</span></a></li>
+            <div class="rightSideNav">
+            <li  ><a href="../index.html"><button class="button-17" role="button">Logout</button></a>
+            </li>
+        </div>
+        </ul>
+
+    </nav>
+    </header>
+    <section class="welcomePageBackground2">
+      <div class="containerWelcome2">
+      <h2 >Please select an employee to show the evaluation result</h2>
+      <select name="" id="employeeNameSelect2" class="empolyeeName" onchange="changeSelectForReport()">
+        <option value="the employee" >employee name</option>
+        <option value="Hamza">Hamza</option>
+        <option value="Majd">Majd</option>
+        <option value="Jameel">Jameel</option>
+        <option value="Rahaf">Rahaf</option>
+      </select>
+      <img class="welcome2"  src="images/reportphoto.png">
+
+
+      <button class="button-55" id="reportstart" onclick="showResult()">show the evaluation</button>
+
+ 
+      </div>
+
+    </section>
+  </section>
+      <section class="employeeFormEval"id="reportfir" >
+        <h2>Employee Evaluation Results</h2>
+        <form action="" class="evaluationForm" >
+          <div class="personal-section">
+            <h3 class="criteriaHeader">personal Critieria</h3>
+            <ol>
+              <li id="q-0">The employee personality and charisma is truly magnetic.</li>
+              <div class="radioBox" id="r0">
+             
+                <label for="" id="l0">excellent</label>
+              </div>
+
+  
+              <li id="q-1">The employee is a person of charisma and influence.</li>
+              <div class="radioBox" id="r1">
+                
+                <label for="" id="l1">excellent</label>
+              </div>
+              
+              <li id="q-2">
+                The employee is a very soft spoken person and never lose his
+                temper.
+              </li>
+              <div class="radioBox" id="r2">
+                <label for="" id="l2">excellent</label>
+              </div>
+
+            </ol>
+            
+          
+          </div>
+       
+          <div class="professionalSection">
+            <h3 class="criteriaHeader">professional Critieria</h3>
+            <ol>
+              <li id="q-3">The employee’s dress and personal appearance</li>
+              <div class="radioBox" id="r3">
+               
+                <label for="" id="l3">excellent</label>
+              </div>
+             
+  
+              <li id="q-4">the employee is accountable for her tasks</li>
+              <div class="radioBox" id="r4">
+               
+                <label for="" id="l4">excellent</label>
+              </div>
+
+              <li id="q-5">
+                The employee’s behavior according to the company’s ethical code.
+              </li>
+              <div class="radioBox" id="r5">
+               
+                <label for="" id="l5">excellent</label>
+              </div>
+            </ol>
+         
+          </div>
+         
+          <div class="technicalSection">
+            <h3 class="criteriaHeader">technical Critieria</h3>
+            <ol>
+              <li id="q-6">
+                the employee demonstrated the highest level of understanding of
+                the most complex design and implementation issues at every stage
+                of development.
+              </li>
+              <div class="radioBox" id="r6">
+                <label for="" id="l6">excellent</label>
+              </div>
+
+  
+              <li id="q-7">
+                the employee has an exceptional way of finding things and get them
+                improved.
+              </li>
+              <div class="radioBox" id="r7"> 
+                
+                <label for="" id="l7">excellent</label>
+              </div>
+
+              <li id="q-8">
+                the employee understands complicated issues, even when outside of
+                his direct area of expertise.
+              </li>
+              <div class="radioBox" id="r8">
+               
+                <label for="" id="l8">excellent</label>
+              </div>
+              
+
+            </ol>   
+          
+          </div>
+       
+        
+      </form>
+    </section>
+    <section class="containerRecomend" id="recomendationSystem" >
+        <div class="recImgAndText"><h2>Recommendations</h2><img src="images/recommendation-icon.JPG"></div>
+        <p id="reco">we advice you with the following based on your evaluation so you keep your company as its best!!</p>
+        <div id="recommendArea">
+
+        </div>
+    </section>
+    <footer>CopyRight 3Val</footer>
+    <script src="../script.js">
+
+    </script>
+  </body>
+</html>
